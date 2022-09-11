@@ -1,0 +1,191 @@
+*{
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+
+  background-color: #57496e;
+}
+
+.title{
+
+  width: 90%;
+  height: 40px;
+  
+}
+
+.bigTitle{
+
+  color: white;
+}
+
+.create{
+
+  margin-top: 30px;
+  margin-left: 12px;
+}
+
+.welcome{
+
+  color: white;
+  margin-left: auto;
+}
+
+.signOut{
+
+  color: white;
+  margin-left: 5px;
+}
+
+input[text]{
+
+  border-radius: 25px;
+
+}
+.form-group{
+
+  margin-top: 10px;
+}
+
+#exampleTextarea{
+
+
+  width: 90%;
+  height:300px;
+  border-radius: 25px;
+  border: 1px solid black;
+
+}
+
+.box1{
+
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.box2{
+
+  margin-top: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.buttonSection{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.create-btn{
+
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #7c689b;
+  color: white;
+  font-weight: bold;
+}
+
+.cancel-btn{
+  border: 2px solid #7c689b;;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  color:#7c689b;
+}
+
+.cardSection{
+
+  margin-top: 15px;
+
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns:  1fr;
+  grid-template-areas: 
+      "cutie1 "
+      "cutie2"
+      "cutie3" 
+       
+  ;
+  justify-items: center;
+  column-gap: 10px;
+  row-gap: 15px;
+ 
+  
+  
+}
+
+
+
+.cutie{
+
+  width: 310px;
+  height: 110px;
+  background-color:#7c689b;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  
+  
+}
+
+.hTitle{
+
+  font-weight: bold;
+
+  color: white;
+}
+
+.hDetail{
+
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+
+}
+
+.newCourse{
+
+  background-color: lightgray;
+  font-size: 25px;
+  font-weight: normal;
+  color: #7c689b;
+}
+
+.bs2{
+
+  background-color: #e9e2f3;
+  height: 250px;
+  padding: 20px;
+  margin: 0;
+}
+
+.course-detail-title{
+
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-content:flex-end;
+  justify-content: end;
+  border-bottom: 1px solid black;
+
+}
+
+.details{
+
+  margin-left: 20px;
+}
+
+h1{
+  cursor: pointer;
+}
